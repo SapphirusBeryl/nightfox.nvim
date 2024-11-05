@@ -24,9 +24,9 @@ function M.get(spec, config, opts)
     NeoTreeGitModified        = { fg = spec.git.changed },
     NeoTreeGitAdded           = { fg = spec.git.add },
     NeoTreeGitDeleted         = { fg = spec.git.removed },
-    NeoTreeGitConflict        = { fg = spec.git.conflict, style = "italic" },
+    NeoTreeGitConflict        = { fg = spec.git.conflict },
     NeoTreeGitIgnored         = { fg = spec.git.ignored },
-    NeoTreeGitUntracked       = { fg = c.magenta:subtle() }
+    NeoTreeGitUntracked       = { fg = c.pink:subtle() }
   }
 end
 
